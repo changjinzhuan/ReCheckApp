@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10px"
+    android:background="@anim/search_item_anim">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/text_cashvouchername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:text="纸100元（05版）"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/text_bankname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:text="XXXXXX银行"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/text_cashtypename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:text="未复点残损"
+        android:textColor="@android:color/white"
+        />
+  </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="时间:"
+      android:textSize="18sp"
+      android:textColor="@android:color/white"
+      />
+  <TextView
+      android:id="@+id/text_onetwo_updatetime"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:textSize="18sp"
+      android:text="2017-09-22 11:22:33"
+      android:textColor="@android:color/white"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="操作人:"
+      android:textSize="18sp"
+      android:textColor="@android:color/white"
+      />
+  <TextView
+      android:id="@+id/text_operatusername"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:textSize="18sp"
+      android:text="我是操作人"
+      android:textColor="@android:color/white"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="复核人:"
+      android:textSize="18sp"
+      android:textColor="@android:color/white"
+      />
+  <TextView
+      android:id="@+id/text_checkusername"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:textSize="18sp"
+      android:text="我是复核人"
+      android:textColor="@android:color/white"
+      />
+
+</LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="捆号:"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:id="@+id/text_onepackcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="KCRX0001002219111205093725262056"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="包号:"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:id="@+id/text_twopackcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="B19AC28B"
+        android:textColor="@android:color/white"/>
+  </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

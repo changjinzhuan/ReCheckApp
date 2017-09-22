@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
@@ -14,16 +15,21 @@ import android.widget.Toast;
  */
 
 public class MainActivitiy extends Activity implements View.OnClickListener{
+
+    private MyApplication app;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        app=(MyApplication)getApplication();
+        Log.d("recheck","username="+app.getUsername());
         init();
     }
 
     private void init() {
         Button selectButton= (Button) findViewById(R.id.btn_search);
         selectButton.setOnClickListener(this);
+
     }
 
     @Override

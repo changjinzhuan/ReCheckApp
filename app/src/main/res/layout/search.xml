@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
 
+    <LinearLayout
+        android:id="@+id/total_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/text_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请扫描包号或捆号"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/text_bundlenum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+   <ListView
+    android:id="@+id/list_test"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/total_search"
+       android:layoutAnimation="@anim/anim_list_item"
+       >
+</ListView>
+
+</RelativeLayout>
