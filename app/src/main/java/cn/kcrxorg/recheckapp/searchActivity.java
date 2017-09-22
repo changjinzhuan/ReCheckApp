@@ -41,7 +41,7 @@ public class searchActivity extends Activity {
     private KeyReceiver keyReceiver;
     private static Toast toast;
     String data;
-
+   String caonima="草拟吗git";
     TextView textscan;
     TextView textbundlenum;
 
