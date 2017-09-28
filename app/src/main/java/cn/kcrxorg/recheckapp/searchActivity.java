@@ -41,7 +41,6 @@ public class searchActivity extends Activity {
     private KeyReceiver keyReceiver;
     private static Toast toast;
     String data;
-   String caonima="草拟吗git";
     TextView textscan;
     TextView textbundlenum;
 
@@ -67,17 +66,7 @@ public class searchActivity extends Activity {
                     textscan.setText("未查询到此包号/捆号");
                     break;
             }
-//            if (msg.what == Barcode1DManager.Barcode1D) {
-//                String data = msg.getData().getString("data");
-//                sortAndadd(listBarcode, data);
-//                addListView();
-//                eidtBarCount.setText(listBarcode.size() + "");
-////				barcodeCount++;
-//                Util.play(1, 0);
-//            }
         }
-
-        ;
     };
 
     @Override
